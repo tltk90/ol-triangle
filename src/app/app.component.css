@@ -3,3 +3,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.gh {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding-bottom: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition:  transform .2s ease-in;
+}
+
+.gh:hover {
+  transform: rotate(-35deg);
+}

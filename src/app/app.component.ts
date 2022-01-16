@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ol-triangle';
+
+  goToRepo(): void {
+    window.open('https://github.com/tltk90/ol-triangle');
+  }
 }
